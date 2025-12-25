@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         ),
         scaffoldBackgroundColor: const Color.fromARGB(255, 50, 58, 60),
       ),
-      home: Placeholder(),
+      home: Center(child: Text('messi is the goat')),
     );
   }
 }
