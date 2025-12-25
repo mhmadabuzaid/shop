@@ -14,7 +14,10 @@ class _NewitemState extends State<Newitem> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Add a new item')),
-      body: Padding(padding: EdgeInsets.all(12), child: Text('The form ')),
+      body: Padding(
+        padding: EdgeInsets.all(12),
+        child: Text('The new form added '),
+      ),
     );
   }
 }
